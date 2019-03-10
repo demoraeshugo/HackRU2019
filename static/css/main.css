@@ -1,0 +1,45 @@
+
+* {
+    color: black; 
+    font-family: 'Quicksand', sans-serif;
+}
+
+.jumbotron {
+    padding-top: 6em;
+    background: url(/images/tesla.jpg);
+    background-repeat: no-repeat;
+    background-size: 100em;
+    margin-bottom: 0em;
+}
+
+.jumbotron1 {
+    position: relative;
+    background: url(/images/tesla.jpg);
+    background-repeat: no-repeat;
+    background-size: 120vw;
+    padding-top: 10em;
+    padding-bottom: 3.0em;
+}
+
+.home {
+    height: 39em;
+}
+
+form {
+    width: 20em;
+    padding: 1em;
+}
+
+.search {
+    border-radius: 7px;
+}
+
+@media (max-width: 767px) {
+    .jumbotron1 {
+        background-size: 100vw;
+    }
+
+    .search {
+        margin-top: 2em;
+    }
+}
