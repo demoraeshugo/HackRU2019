@@ -34,6 +34,11 @@ form {
     border-radius: 7px;
 }
 
+.result {
+    border-radius: 7px;
+    height: 65vh;
+}
+
 @media (max-width: 767px) {
     .jumbotron1 {
         background-size: 100vw;
@@ -42,4 +47,14 @@ form {
     .search {
         margin-top: 2em;
     }
+}
+
+ul {
+    list-style: none;
+}
+
+.card {
+    margin-top: 4.9em;
+    margin-left: 1.9em;
+    margin-right: 1em;
 }
