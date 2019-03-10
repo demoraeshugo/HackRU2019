@@ -1,4 +1,3 @@
-
 * {
     color: black; 
     font-family: 'Quicksand', sans-serif;
@@ -62,4 +61,8 @@ ul {
 .card > img {
     height: 11em;
     overflow: hidden;
+}
+
+#map {
+    height: 100%;
 }
