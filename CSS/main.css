@@ -54,7 +54,12 @@ ul {
 }
 
 .card {
-    margin-top: 4.9em;
+    margin-top: .5em;
     margin-left: 1.9em;
     margin-right: 1em;
+}
+
+.card > img {
+    height: 11em;
+    overflow: hidden;
 }
